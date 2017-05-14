@@ -4,7 +4,7 @@
   "description": "React Todo application",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build && nodemon server.js",
+    "start": "npm run build && node server.js",
     "build": "webpack",
     "test": "NODE_ENV=test karma start"
   },
