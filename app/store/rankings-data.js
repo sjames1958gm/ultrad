@@ -1,0 +1,24 @@
+export default [
+    {team: "E.P.A.S.", points: "141"},
+    {team: "RRJ", points: "131.5"},
+    {team: "MSU", points: "126.5"},
+    {team: "DCD", points: "126"},
+    {team: "EBK", points: "125.5"},
+    {team: "Chip", points: "123.5"},
+    {team: "TonyV", points: "121"},
+    {team: "MPGA", points: "118.5"},
+    {team: "Lou", points: "110"},
+    {team: "13 Guys", points: "109.5"},
+    {team: "Mental", points: "101.5"},
+    {team: "STICK", points: "95.5"},
+    {team: "ERO", points: "95.5"},
+    {team: "CPB", points: "95"},
+    {team: "SYF", points: "94"},
+    {team: "J-RO", points: "89"},
+    {team: "Astros", points: "89"},
+    {team: "LD", points: "74"},
+    {team: "WC", points: "73.5"},
+    {team: "Lover", points: "60"}
+];
+    
+    

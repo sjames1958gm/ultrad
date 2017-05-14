@@ -1,0 +1,22 @@
+.title-bar, .title-bar ul {
+  background-color: $nav-bg;
+}
+
+.title-bar {
+  width: 100%;
+  
+  .menu-text {
+    color: $nav-text-color;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5rem;
+  }
+  
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
+}
