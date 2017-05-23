@@ -17,19 +17,27 @@ export class UltraDApp extends React.Component {
         this.context.router.push('/pitching-stats');
     }
     
+    onFAHittersStats() {
+        this.context.router.push('/fa-hitters-current');
+    }
+    
+    onFAPitchersStats() {
+        this.context.router.push('/fa-pitchers-current');
+    }
+    
     render() {
         let {rankings} = this.props;
         return (
             <div>
                 <div className="row">
                     <div className="columns small-offset-2 small-centered small-8">
-                        <img className="banner-img" src="http://ultradmilb.zohosites.com/files/edited.png"/>
+                        <img className="small-img banner-img" src="http://ultradmilb.zohosites.com/files/edited.png"/>
                     </div>
                 </div>
                 <div className="main-body">
                     <div className="row">
                         <div className="columns small-offset-2 small-9">
-                            <h3>UltraD MiLB Stats Page</h3>
+                            <h3 className="center-text">UltraD MiLB Stats Page</h3>
                         </div>
                     </div>
                     <div className="row">
@@ -68,10 +76,10 @@ export class UltraDApp extends React.Component {
                                 <p className="indent">(default ordering - hitting Age then SLG, pitching Age then WHIP)</p>
                             </div>
                             <div className="row">
-                                <button className="button">FA Hitters Current Stats 2017</button>
+                                <button className="button" onClick={this.onFAHittersStats.bind(this)}>FA Hitters Current Stats 2017</button>
                             </div>
                             <div className="row">
-                                <button className="button">FA Pitchers Current Stats 2017</button>
+                                <button className="button" onClick={this.onFAPitchersStats.bind(this)}>FA Pitchers Current Stats 2017</button>
                             </div>
                             <div className="row">
                             <h4>Stats for assigned MiLB players in UltraD</h4>

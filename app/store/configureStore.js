@@ -1,14 +1,16 @@
 import * as redux from 'redux';
 import thunk from 'redux-thunk';
 
-import {rankingsReducer, hittingReducer, pitchingReducer}  from 'reducers';
+import {rankingsReducer, hittingReducer, pitchingReducer, fahittersReducer, fapitchersReducer}  from 'reducers';
 
 export var configure = (intialState = {}) => {
 
   var reducer = redux.combineReducers({
     rankings: rankingsReducer,
     hitting: hittingReducer,
-    pitching: pitchingReducer
+    pitching: pitchingReducer,
+    fahitters: fahittersReducer,
+    fapitchers: fapitchersReducer
   });
 
   return redux.createStore(reducer, 

@@ -24,3 +24,22 @@ export var pitchingReducer = (state = [], action) => {
       return state;
   }
 };
+
+export var fahittersReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD_FA_HITTERS":
+      return action.fahitters;
+    default:
+      return state;
+  }
+};
+
+export var fapitchersReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD_FA_PITCHERS":
+      return action.fapitchers;
+    default:
+      return state;
+  }
+};
+

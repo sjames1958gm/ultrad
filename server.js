@@ -63,6 +63,32 @@ app.get("/pitching", function(req, res, next) {
   });
 });
 
+app.get("/fa-hitters", function(req, res, next) {
+  fs.readFile("data/fa-hitters-data.json", "utf8", function(err, data) {
+    if (err) {
+      res.status(500).send({ error: 'Failed to get file' });
+      return;
+    }
+    else {
+      console.log(data);
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
+app.get("/fa-pitchers", function(req, res, next) {
+  fs.readFile("data/fa-pitchers-data.json", "utf8", function(err, data) {
+    if (err) {
+      res.status(500).send({ error: 'Failed to get file' });
+      return;
+    }
+    else {
+      console.log(data);
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
 app.use(express.static(__dirname + '/public'));
 
 // app.get('/counter', function(req, res, next) {

@@ -46,3 +46,35 @@ export var startAddPitching = () => {
       });
   };
 };
+
+export var addFAHitters = (fahitters) => ({
+  type: "ADD_FA_HITTERS", fahitters
+});
+
+export var startAddFAHitters = () => {
+  return (dispatch, getState) => {
+    return fetch("/fa-hitters")
+      .then((response) => {
+        return response.json();
+      })
+      .then((json) => {
+        dispatch(addFAHitters(json));
+      });
+  };
+};
+
+export var addFAPitchers = (fapitchers) => ({
+  type: "ADD_FA_PITCHERS", fapitchers
+});
+
+export var startAddFAPitchers = () => {
+  return (dispatch, getState) => {
+    return fetch("/fa-pitchers")
+      .then((response) => {
+        return response.json();
+      })
+      .then((json) => {
+        dispatch(addFAPitchers(json));
+      });
+  };
+};

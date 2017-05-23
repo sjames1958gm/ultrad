@@ -4,7 +4,8 @@ var {Link, IndexLink} = require("react-router");
 var Nav = () => {
     return (
       <div data-sticky-container>
-        <div className="title-bar" role="navigation" data-sticky data-options="marginTop:0;" >
+      <div data-sticky>
+        <div className="title-bar sticky is-stuck" role="navigation" data-options="marginTop:0;" >
             <div className="top-bar-left">
               <ul className="menu">
                 <li className="menu-text"><Link to="/">Ultra D</Link></li>
@@ -15,6 +16,7 @@ var Nav = () => {
                 <li className="menu-text">Created by <a href="https://github.com/sjames1958gm" target="_blank">Stephen James</a></li>
               </ul>
             </div>
+          </div>
         </div>
       </div>
     );

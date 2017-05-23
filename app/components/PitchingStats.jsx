@@ -15,7 +15,7 @@ export class PitchingStats extends  React.Component {
             <div>
                 <div className="row">
                     <div className="columns small-offset-2 small-centered small-8">
-                        <img className="banner-img" src="http://ultradmilb.zohosites.com/files/edited.png"/>
+                        <img className="small-img banner-img" src="http://ultradmilb.zohosites.com/files/edited.png"/>
                     </div>
                 </div>
                 <div className="main-body">
