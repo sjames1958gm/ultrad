@@ -89,6 +89,34 @@ app.get("/fa-pitchers", function(req, res, next) {
   });
 });
 
+app.get("/assigned-hitters", function(req, res, next) {
+  fs.readFile("data/assigned-hitters-data.json", "utf8", function(err, data) {
+    if (err) {
+      res.status(500).send({ error: 'Failed to get file' });
+      return;
+    }
+    else {
+      console.log(data);
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
+
+
+app.get("/assigned-pitchers", function(req, res, next) {
+  fs.readFile("data/assigned-pitchers-data.json", "utf8", function(err, data) {
+    if (err) {
+      res.status(500).send({ error: 'Failed to get file' });
+      return;
+    }
+    else {
+      console.log(data);
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
 app.use(express.static(__dirname + '/public'));
 
 // app.get('/counter', function(req, res, next) {

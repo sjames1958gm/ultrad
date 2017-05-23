@@ -1,7 +1,9 @@
 import * as redux from 'redux';
 import thunk from 'redux-thunk';
 
-import {rankingsReducer, hittingReducer, pitchingReducer, fahittersReducer, fapitchersReducer}  from 'reducers';
+import {rankingsReducer, hittingReducer, pitchingReducer, 
+        fahittersReducer, fapitchersReducer, 
+        assignedHittersReducer, assignedPitchersReducer}  from 'reducers';
 
 export var configure = (intialState = {}) => {
 
@@ -10,7 +12,9 @@ export var configure = (intialState = {}) => {
     hitting: hittingReducer,
     pitching: pitchingReducer,
     fahitters: fahittersReducer,
-    fapitchers: fapitchersReducer
+    fapitchers: fapitchersReducer,
+    assignedHitters: assignedHittersReducer,
+    assignedPitchers: assignedPitchersReducer
   });
 
   return redux.createStore(reducer, 

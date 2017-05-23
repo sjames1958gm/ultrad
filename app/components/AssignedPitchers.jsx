@@ -4,7 +4,7 @@ import * as actions from "actions";
 import SortableTable from "SortableTable";
 
 let format = [
-        { key: "status", h: "Status" }, {key: "player", h: "NAME", url: "player_url"}, {key: "age", h: "Age"},
+        { key: "ultra_d_team", h: "UltraDTeam" }, {key: "player", h: "NAME", url: "player_url"}, {key: "age", h: "Age"},
         { key: "team", h: "TEAM"}, { key: "wins", h: "W"}, { key: "losses", h: "L"}, {key: "era", h: "ERA"},
         { key: "games", h: "G"}, { key: "games_started", h: "GS"}, { key: "comp_games", h: "CG"}, 
         { key: "shut_outs", h: "SO"}, { key: "saves", h: "SV"}, { key: "inn_pitched", h: "IP"}, { key: "hits", h: "H"},
@@ -12,9 +12,9 @@ let format = [
         { key: "strike_outs", h: "SO"}, { key: "w_h_per_inn", h: "WHIP"}, { key: "hold", h: "HLD"}
         ];
 
-export class FAPitchersCurrent extends  React.Component {
+export class AssignedPitchers extends  React.Component {
     componentWillMount() {
-        this.props.dispatch(actions.startAddFAPitchers());
+        this.props.dispatch(actions.startAddAssignedPitchers());
     }
     
     render() {
@@ -28,7 +28,7 @@ export class FAPitchersCurrent extends  React.Component {
                 </div>
                 <div className="row">
                     <div className="columns small-offset-2 small-centered small-8">
-                        <h3 className="center-text space-above">FA Pitchers 2017</h3>
+                        <h3 className="center-text space-above">UltraD Assigned Pitchers</h3>
                     </div>
                 </div>
                 <SortableTable format={format} stats={pitchers} sortby={"player"} asc={true}/>
@@ -38,6 +38,6 @@ export class FAPitchersCurrent extends  React.Component {
 
 export default redux.connect(
     (state) => ({
-        pitchers: state.fapitchers
+        pitchers: state.assignedPitchers
     })
-)(FAPitchersCurrent);
+)(AssignedPitchers);

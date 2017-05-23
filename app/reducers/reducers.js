@@ -43,3 +43,21 @@ export var fapitchersReducer = (state = [], action) => {
   }
 };
 
+export var assignedHittersReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD_ASSIGNED_HITTERS":
+      return action.assignedHitters;
+    default:
+      return state;
+  }
+};
+
+export var assignedPitchersReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD_ASSIGNED_PITCHERS":
+      return action.assignedPitchers;
+    default:
+      return state;
+  }
+};
+

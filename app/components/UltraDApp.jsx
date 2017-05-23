@@ -25,6 +25,14 @@ export class UltraDApp extends React.Component {
         this.context.router.push('/fa-pitchers-current');
     }
     
+    onAssignedHitters() {
+        this.context.router.push('/assigned-hitters');
+    }
+    
+    onAssignedPitchers() {
+        this.context.router.push('/assigned-pitchers');
+    }
+    
     render() {
         let {rankings} = this.props;
         return (
@@ -88,10 +96,10 @@ export class UltraDApp extends React.Component {
                                 <p className="indent">(default ordering - hitting SLG, pitching WHIP)</p>
                             </div>
                             <div className="row">
-                                <button className="button">UltraD Assigned MiLB Hitters</button>
+                                <button className="button" onClick={this.onAssignedHitters.bind(this)}>UltraD Assigned MiLB Hitters</button>
                             </div>
                             <div className="row">
-                                <button className="button">UltraD Assigned MiLB Pitchers</button>
+                                <button className="button" onClick={this.onAssignedPitchers.bind(this)}>UltraD Assigned MiLB Pitchers</button>
                             </div>
                         </div>
                         <div className="columns small-3">
