@@ -31,7 +31,9 @@ export class AssignedPitchers extends  React.Component {
                         <h3 className="center-text space-above">UltraD Assigned Pitchers</h3>
                     </div>
                 </div>
-                <SortableTable format={format} stats={pitchers} sortby={"player"} asc={true}/>
+                <div className="big-table">
+                    <SortableTable format={format} stats={pitchers} sortby={"player"} asc={true}/>
+                </div>
             </div>
     )}
 }

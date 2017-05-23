@@ -32,7 +32,9 @@ export class FAHittersCurrent extends  React.Component {
                         <h3 className="center-text space-above">FA Hitters 2017</h3>
                     </div>
                 </div>
-                <SortableTable format={format} stats={hitters} sortby={"player"} asc={true}/>
+                <div className="big-table">
+                    <SortableTable format={format} stats={hitters} sortby={"player"} asc={true}/>
+                </div>
             </div>
         )}
 }
