@@ -1,44 +1,83 @@
 [ 
-    { "team": "13 Guys", "points": "32.5", "team_era": "4.29", "points_era": "3"
+    { "team": "13 Guys", "points": "32.5", "team_era": "4.29", "points_era": "3",
+      "team_whip": "1.33", "points_whip": "6.5", "team_ks_per_9": "9.11", "points_ks_per_9": "10",
+      "team_wins": "14", "points_wins": "11", "team_hold_save": "0", "points_hold_save": "2"
     }, 
-    { "team": "MSU", "points": "54.5", "team_era": "3.55", "points_era": "11"
+    { "team": "MSU", "points": "54.5", "team_era": "3.55", "points_era": "11",
+      "team_whip": "1.28", "points_whip": "13", "team_ks_per_9": "9.09", "points_ks_per_9": "9",
+      "team_wins": "18", "points_wins": "14", "team_hold_save": "2", "points_hold_save": "7"
     }, 
-    { "team": "RRJ", "points": "61.5", "team_era": "3.46", "points_era": "13"
+    { "team": "RRJ", "points": "61.5", "team_era": "3.46", "points_era": "13",
+      "team_whip": "1.29", "points_whip": "12", "team_ks_per_9": "7.98", "points_ks_per_9": "4",
+      "team_wins": "22", "points_wins": "19", "team_hold_save": "4", "points_hold_save": "13"
     }, 
-    { "team": "Chip", "points": "54.5", "team_era": "3.64", "points_era": "9"
+    { "team": "Chip", "points": "54.5", "team_era": "3.64", "points_era": "9",
+      "team_whip": "1.33", "points_whip": "6.5", "team_ks_per_9": "9.69", "points_ks_per_9": "17",
+      "team_wins": "11", "points_wins": "8", "team_hold_save": "4", "points_hold_save": "13"
     }, 
-    { "team": "TonyV", "points": "53.5", "team_era": "3.1", "points_era": "17"
+    { "team": "TonyV", "points": "53.5", "team_era": "3.1", "points_era": "17",
+      "team_whip": "1.32", "points_whip": "8", "team_ks_per_9": "9.48", "points_ks_per_9": "13",
+      "team_wins": "14", "points_wins": "11", "team_hold_save": "1", "points_hold_save": "4"
     }, 
-    { "team": "LD", "points": "8", "team_era": "4.55", "points_era": "1"
+    { "team": "LD", "points": "8", "team_era": "4.55", "points_era": "1",
+      "team_whip": "1.43", "points_whip": "2", "team_ks_per_9": "7.69", "points_ks_per_9": "2",
+      "team_wins": "4", "points_wins": "1", "team_hold_save": "0", "points_hold_save": "2"
     }, 
-    { "team": "MPGA", "points": "54", "team_era": "3.54", "points_era": "12"
+    { "team": "MPGA", "points": "54", "team_era": "3.54", "points_era": "12",
+      "team_whip": "1.17", "points_whip": "17", "team_ks_per_9": "9.42", "points_ks_per_9": "12",
+      "team_wins": "10", "points_wins": "6", "team_hold_save": "2", "points_hold_save": "7"
     }, 
-    { "team": "J-RO", "points": "30", "team_era": "4.28", "points_era": "4"
+    { "team": "J-RO", "points": "30", "team_era": "4.28", "points_era": "4",
+      "team_whip": "1.37", "points_whip": "4.5", "team_ks_per_9": "8.68", "points_ks_per_9": "6",
+      "team_wins": "10", "points_wins": "6", "team_hold_save": "3", "points_hold_save": "9"
     }, 
-    { "team": "E.P.A.S.", "points": "83.5", "team_era": "3.21", "points_era": "16"
+    { "team": "E.P.A.S.", "points": "83.5", "team_era": "3.21", "points_era": "16",
+      "team_whip": "1.16", "points_whip": "18", "team_ks_per_9": "9.54", "points_ks_per_9": "15",
+      "team_wins": "18", "points_wins": "14", "team_hold_save": "17", "points_hold_save": "20"
     }, 
-    { "team": "DCD", "points": "68.5", "team_era": "3.66", "points_era": "8"
+    { "team": "DCD", "points": "68.5", "team_era": "3.66", "points_era": "8",
+      "team_whip": "1.27", "points_whip": "14", "team_ks_per_9": "9.58", "points_ks_per_9": "16",
+      "team_wins": "21", "points_wins": "17", "team_hold_save": "4", "points_hold_save": "13"
     }, 
-    { "team": "EBK", "points": "69.5", "team_era": "3.05", "points_era": "18"
+    { "team": "EBK", "points": "69.5", "team_era": "3.05", "points_era": "18",
+      "team_whip": "1.18", "points_whip": "16", "team_ks_per_9": "8.89", "points_ks_per_9": "7",
+      "team_wins": "14", "points_wins": "11", "team_hold_save": "9", "points_hold_save": "17"
     }, 
-    { "team": "Astros", "points": "37.5", "team_era": "3.6", "points_era": "10"
+    { "team": "Astros", "points": "37.5", "team_era": "3.6", "points_era": "10",
+      "team_whip": "1.31", "points_whip": "9", "team_ks_per_9": "8", "points_ks_per_9": "5",
+      "team_wins": "9", "points_wins": "4", "team_hold_save": "3", "points_hold_save": "9"
     }, 
-    { "team": "STICK", "points": "50.5", "team_era": "3.82", "points_era": "7"
+    { "team": "STICK", "points": "50.5", "team_era": "3.82", "points_era": "7",
+      "team_whip": "1.22", "points_whip": "15", "team_ks_per_9": "8.95", "points_ks_per_9": "8",
+      "team_wins": "20", "points_wins": "16", "team_hold_save": "1", "points_hold_save": "4"
     }, 
-    { "team": "CPB", "points": "50.5", "team_era": "4.04", "points_era": "5"
+    { "team": "CPB", "points": "50.5", "team_era": "4.04", "points_era": "5",
+      "team_whip": "1.3", "points_whip": "10.5", "team_ks_per_9": "9.51", "points_ks_per_9": "14",
+       "team_wins": "13", "points_wins": "9", "team_hold_save": "4", "points_hold_save": "13"
     }, 
-    { "team": "Mental", "points": "62", "team_era": "2.9", "points_era": "19"
+    { "team": "Mental", "points": "62", "team_era": "2.9", "points_era": "19",
+      "team_whip": "1.09", "points_whip": "19.5", "team_ks_per_9": "10.17", "points_ks_per_9": "19",
+      "team_wins": "7", "points_wins": "2", "team_hold_save": "0", "points_hold_save": "2"
     }, 
-    { "team": "SYF", "points": "56", "team_era": "3.92", "points_era": "6"
+    { "team": "SYF", "points": "56", "team_era": "3.92", "points_era": "6",
+      "team_whip": "1.41", "points_whip": "3", "team_ks_per_9": "10.07", "points_ks_per_9": "18",
+      "team_wins": "17", "points_wins": "13", "team_hold_save": "7", "points_hold_save": "16"
     }, 
-    { "team": "WC", "points": "39", "team_era": "3.25", "points_era": "15"
+    { "team": "WC", "points": "39", "team_era": "3.25", "points_era": "15",
+      "team_whip": "1.44", "points_whip": "1", "team_ks_per_9": "7.9", "points_ks_per_9": "3",
+      "team_wins": "7", "points_wins": "2", "team_hold_save": "9", "points_hold_save": "17"
     }, 
-    { "team": "ERO", "points": "62", "team_era": "3.3", "points_era": "14"
+    { "team": "ERO", "points": "62", "team_era": "3.3", "points_era": "14",
+      "team_whip": "1.3", "points_whip": "10.5", "team_ks_per_9": "9.36", "points_ks_per_9": "11",
+      "team_wins": "22", "points_wins": "19", "team_hold_save": "2", "points_hold_save": "7"
     }, 
-    { "team": "Lou", "points": "84.5", "team_era": "2.83", "points_era": "20"
+    { "team": "Lou", "points": "84.5", "team_era": "2.83", "points_era": "20",
+      "team_whip": "1.09", "points_whip": "19.5", "team_ks_per_9": "12.17", "points_ks_per_9": "20",
+      "team_wins": "10", "points_wins": "6", "team_hold_save": "13", "points_hold_save": "19"
     }, 
-    { "team": "Lover", "points": "38", "team_era": "4.3", "points_era": "2"
+    { "team": "Lover", "points": "38", "team_era": "4.3", "points_era": "2",
+      "team_whip": "1.37", "points_whip": "4.5", "team_ks_per_9": "7.6", "points_ks_per_9": "1",
+      "team_wins": "21", "points_wins": "17", "team_hold_save": "4", "points_hold_save": "13"
     }
   ]
-  
   
